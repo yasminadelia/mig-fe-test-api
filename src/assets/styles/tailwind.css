@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+form input,
+select {
+  border: 2px solid rgb(203 213 225);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+thead th {
+  background-color: #f3f4f6;
+  padding: 16px;
+}
+
+td {
+  padding: 4px 8px;
+}
